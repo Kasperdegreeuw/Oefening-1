@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+}
+
+.tekst1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.tekst2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1, h2, h3 {
+    font-family: "Amarante", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+header {
+    background-color: black;
+    border-radius: 0px 0px 60px 60px;}
+
+header h1 a { color: white;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    }
+.image-container {
+        text-align: center;
+    }
+
+.img {
+        width: 800px;
+        height: 250px;
+    }
+    
+
+header h1 {text-align: center;}
+
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+main ul {
+    color: rgb(0, 0, 0);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: all 650ms ease;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 1.2em 1.5em 1.2em 1.2em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+}
+
+
+
+
+nav a:hover {
+    color:  rgb(54, 255, 111);
+    
+}
+
+header h1 :hover{
+    color:  rgb(54, 255, 111);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+p { 
+    color: rgb(0, 0, 0);
+    font-size: 5rem ;
+    text-align: center; 
+    margin: 40px 200px;
+}
+
+div li {
+    font-size: 5rem;
+}
+
+main h2 {
+        color: rgb(0, 0, 0);
+        font-size: 5rem;
+        text-align: center;
+        margin: 25px 200px;
+        font-weight: 800;
+    }
+
+main ul {
+    color: rgb(0, 0, 0);
+    font-size: 2.5em ;
+    text-align: left; 
+    margin: 0px 200px;
+}
+
+section h3 {
+    text-align: center;
+}
+
+
+iframe {
+    width: 840px;
+    height: 500px;
+    display: block;
+    margin: 0 auto; /* Centers it horizontally */
+}
+
+h3 {    
+    font-size: 2rem;
+    border: 3rem;
+    background-color: black;
+    color: white;
+    padding: 2em 4%;
+    margin: 2% 35%;
+}
+
+section { 
+    margin-bottom: 100px;
+}
+
+.active { 
+    color:  rgb(54, 255, 111) ;
+   
+}
+
+
